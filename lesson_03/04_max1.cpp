@@ -9,7 +9,9 @@ int main()
     bool is_m_vacant = true;
 
     cin >> x;
-    while (x != 0) {  // ïîêà X íå òåðìèíàëüíûé
+    while (x != 0) {  // Ã¯Ã®ÃªÃ  X Ã­Ã¥ Ã²Ã¥Ã°Ã¬Ã¨Ã­Ã Ã«Ã¼Ã­Ã»Ã©
+        // Ð¸ÑÐ¿Ñ€Ð°Ð²Ð¸Ñ‚ÑŒ
+        // Weâ€™ve detected the file encoding as ISO-8859-1. When you commit changes we will transcode it to UTF-8.
         if (x % 2 == 0) {
             if (is_m_vacant or x > m) {
                 m = x;
